@@ -1,1 +1,0 @@
---Angkringan Shinchan--
