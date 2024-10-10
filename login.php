@@ -16,7 +16,7 @@ if (isset($_POST['login'])) {
         // Verifikasi password
         if (password_verify($password, $user['password'])) {
             $_SESSION['user'] = $user['email'];
-            header("Location: dashboard.php"); // Redirect ke halaman dashboard
+            header("Location: dashboard.html"); // Redirect ke halaman dashboard
         } else {
             echo "Incorrect password!";
         }

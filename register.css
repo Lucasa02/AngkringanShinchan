@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.form-container {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+}
+
+.logo img {
+    width: 190px;
+    margin-bottom: 10px;
+    margin-right: -90px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    width: 180%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+    margin-left: -40px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #f3f3f3;
+    margin-left: -40px;
+}
+
+.register-btn {
+    width: 180%;
+    padding: 15px;
+    background-color: #2d726f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -40px;
+}
+
+.register-btn:hover {
+    background-color: #1d3b38;
+}
+
+/* Tambahkan pembatas */
+.separator {
+    width: 2px;
+    background-color: rgb(223, 223, 223);
+    height: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Menambahkan shadow */
+}
+
+.logo-large {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.logo-large img {
+    width: 300px;
+    margin-left: -30px;
+}
