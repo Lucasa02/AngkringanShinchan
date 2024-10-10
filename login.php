@@ -18,10 +18,10 @@ if (isset($_POST['login'])) {
             $_SESSION['user'] = $user['email'];
             header("Location: dashboard.html"); // Redirect ke halaman dashboard
         } else {
-            echo "Incorrect password!";
+            header("Location: login.html?error=password"); // Redirect dengan parameter error untuk password salah
         }
     } else {
-        echo "User not found!";
+        header("Location: login.html?error=user"); // Redirect dengan parameter error untuk user tidak ditemukan
     }
 }
 ?>
